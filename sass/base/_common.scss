@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+  font-family: "Arial";
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+/*
+main {
+  @media screen and (max-width: 767px) {
+    margin-top: 140px;
+  }
+}
+*/
